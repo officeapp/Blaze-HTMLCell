@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary        = 'HTML-cell addition to Blaze'
   s.license 	   = 'MIT'
   s.description    = 'Useful HTML-cell addition to Blaze, using DTCoreText and TTTAttributedLabel for performance and link checking'
-  s.homepage       = 'https://github.com/BobDG/Blaze-HTMLCell'
+  s.homepage       = 'https://github.com/officeapp/Blaze-HTMLCell.git'
   s.authors        = {'Bob de Graaf' => 'graafict@gmail.com'}
-  s.source         = { :git => 'https://github.com/BobDG/Blaze-HTMLCell.git', :tag => s.version.to_s }
+  s.source         = { :git => 'https://github.com/officeapp/Blaze-HTMLCell.git', :tag => s.version.to_s }
   s.source_files   = 'BlazeHTMLCell/*.{h,m}'
   s.platform       	= :ios, '10.0'
   s.requires_arc   	= true
